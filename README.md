@@ -1,19 +1,23 @@
 # NorthStar Urban Mobility — Databases and Analytics
 
 ## Overview
-Analytics consultancy project for NorthStar Urban Mobility and Logistics.
-University of West London — Databases and Analytics Module
+This github repository is for my Databases and Analytics assignment for the case study of NorthStar Urban Mobility.
+This is for the University of West London — Databases and Analytics Module
 
 ## Repository Structure
-- `/data` — NorthStar operational datasets (CSV files)
-- `/notebooks` — Google Colab notebooks for R, Python, and MongoDB
+- `/CSV` — The Messy CSV from the NorthStar operational datasets
+- `/Cleaned CSV` — The Cleaned up versions of the CSV from the NorthStar operational datasets
+- `/notebooks` — The Google Colab notebooks creadted for SQL in R, R Analytics, Python, and MongoDB
+
+## Dataset (CSV) 
+It contains 9 CSV files that covers customers, orders, 
+deliveries, drivers, vehicles, hubs, incidents, complaints, and app events, but only customers, orders, deliveries, complaints 
+and app_events will be used for this assignment
 
 ## Notebooks
-- Section 1: SQL in R Analysis
-- Section 2: Python / Pandas Analytics  
+- Section 1: SQL in R.
+- Section 1: R Analysis
+- Section 2: Python.  
 - Section 3: MongoDB Design and Query Optimisation
 
-## Dataset
-Contains 10 operational CSV files covering customers, orders, 
-deliveries, drivers, vehicles, hubs, incidents, complaints, 
-and app events.
+
